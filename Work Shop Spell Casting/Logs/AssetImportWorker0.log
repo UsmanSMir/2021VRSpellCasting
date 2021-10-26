@@ -1,0 +1,301 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32687 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Design/Unity/Github/Workshops/2020VRSpellCasting/Work Shop Spell Casting
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52352
+Successfully changed project path to: D:/Design/Unity/Github/Workshops/2020VRSpellCasting/Work Shop Spell Casting
+D:/Design/Unity/Github/Workshops/2020VRSpellCasting/Work Shop Spell Casting
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.77 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Design/Unity/Github/Workshops/2020VRSpellCasting/Work Shop Spell Casting/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   30.0.14.9613
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001518 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.90 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001193 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.82 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\2020VRSpellCasting\Work Shop Spell Casting\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\2020VRSpellCasting\Work Shop Spell Casting\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.6 MB.
+System memory in use after: 113.7 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2904.
+Total: 2.836800 ms (FindLiveObjects: 0.314800 ms CreateObjectMapping: 0.150200 ms MarkObjects: 1.483800 ms  DeleteObjects: 0.887400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac8363b7ab88c6abf65b7796275fbc4') in 0.014713 seconds
+  Import took 0.017919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.989099 seconds.
+  path: Assets/Prefabs/FireTiles 1.mat
+  artifactKey: Guid(746bdf84b0264064b89e995105b27043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FireTiles 1.mat using Guid(746bdf84b0264064b89e995105b27043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bce6de7dee773f0d26c692124b35a8') in 0.194355 seconds
+  Import took 0.197650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.488188 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2bd7ec59c45d315c0487f1f3f934eb') in 0.004883 seconds
+  Import took 0.008063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.991817 seconds.
+  path: Assets/Scenes/BaseWorshop.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BaseWorshop.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd19f7204b9940c01914f4d1dcb7eb1') in 0.005667 seconds
+  Import took 0.008995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.642204 seconds.
+  path: Assets/Scripts/SpellCaster.cs
+  artifactKey: Guid(24cd2ced0dd600049ad6eb58e074f2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpellCaster.cs using Guid(24cd2ced0dd600049ad6eb58e074f2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb963d37fc3011169d15adcda62a28b4') in 0.007177 seconds
+  Import took 0.010393 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\2020VRSpellCasting\Work Shop Spell Casting\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\2020VRSpellCasting\Work Shop Spell Casting\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.7 MB.
+System memory in use after: 115.8 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2985.
+Total: 2.977300 ms (FindLiveObjects: 0.417200 ms CreateObjectMapping: 0.222600 ms MarkObjects: 1.440300 ms  DeleteObjects: 0.896400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.742348 seconds.
+  path: Assets/Prefabs/SparkSpell.prefab
+  artifactKey: Guid(c37dbe3fc89896040a22100e856c2f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SparkSpell.prefab using Guid(c37dbe3fc89896040a22100e856c2f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1562cd5caad4389828f9c5fb1a9224') in 0.028074 seconds
+  Import took 0.031567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 190.323967 seconds.
+  path: Assets/Scripts/Target.cs
+  artifactKey: Guid(7a152a2800679844e9fae0f5fac292b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Target.cs using Guid(7a152a2800679844e9fae0f5fac292b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58896a903552aea058973bcf3b956d3') in 0.005493 seconds
+  Import took 0.009376 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.190534 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\2020VRSpellCasting\Work Shop Spell Casting\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\2020VRSpellCasting\Work Shop Spell Casting\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.760 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2988.
+Total: 3.077200 ms (FindLiveObjects: 0.296900 ms CreateObjectMapping: 0.136300 ms MarkObjects: 1.525600 ms  DeleteObjects: 1.117300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.717867 seconds.
+  path: Assets/Scripts/Target.cs
+  artifactKey: Guid(7a152a2800679844e9fae0f5fac292b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Target.cs using Guid(7a152a2800679844e9fae0f5fac292b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a61805bb4fac40207d9573c39fb398') in 0.007746 seconds
+  Import took 0.011127 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\2020VRSpellCasting\Work Shop Spell Casting\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\2020VRSpellCasting\Work Shop Spell Casting\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2991.
+Total: 3.751500 ms (FindLiveObjects: 0.301500 ms CreateObjectMapping: 0.134000 ms MarkObjects: 2.065500 ms  DeleteObjects: 1.249200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.443673 seconds.
+  path: Assets/Scripts/Target.cs
+  artifactKey: Guid(7a152a2800679844e9fae0f5fac292b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Target.cs using Guid(7a152a2800679844e9fae0f5fac292b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad5d649fbbeeea66bc624718a13c338') in 0.004014 seconds
+  Import took 0.007300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.427122 seconds.
+  path: Assets/Scripts/Target.cs
+  artifactKey: Guid(7a152a2800679844e9fae0f5fac292b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Target.cs using Guid(7a152a2800679844e9fae0f5fac292b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad5d649fbbeeea66bc624718a13c338') in 0.001335 seconds
+  Import took 0.004551 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\2020VRSpellCasting\Work Shop Spell Casting\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\2020VRSpellCasting\Work Shop Spell Casting\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.680 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 2406 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.8 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2994.
+Total: 2.746100 ms (FindLiveObjects: 0.239600 ms CreateObjectMapping: 0.102200 ms MarkObjects: 1.395200 ms  DeleteObjects: 1.008200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 199.192047 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(b4b11c8f001f17643ae09e105d470e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(b4b11c8f001f17643ae09e105d470e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574a6d2fb4fbed5d6ce9a43cbe780dd7') in 0.007249 seconds
+  Import took 0.010531 seconds .
+
